@@ -5,10 +5,14 @@ html {
 }
 
 .container {
+  display: grid;
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  gap: 15px;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 0.25fr 0.25fr 1fr 0.25fr;
 }
 
 .container div {
@@ -26,7 +30,7 @@ html {
 }
 
 .sidebar {
-  background-color: #005B94;
+  background-color: #005b94;
   grid-row: 2 / 4;
 }
 
@@ -35,7 +39,7 @@ html {
 }
 
 .article {
-  background-color: #7E1DC3;
+  background-color: #7e1dc3;
 }
 
 .article p {
